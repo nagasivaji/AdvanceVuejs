@@ -1,7 +1,9 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/form1">Composition API Form</router-link> |
+    <router-link to="/form2">Options API Form</router-link>
   </nav>
   <router-view/>
 </template>
